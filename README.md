@@ -12,6 +12,13 @@ The application provides an interactive **Pokédex interface** where users can:
 - Display Pokémon images, types, abilities, and stats
 - Render multiple Pokémon in a responsive grid layout
 
+
+### 🎬 Project Preview
+
+![Pokédex App Preview](./src/assets/demo.gif)
+
+> *(The above GIF demonstrates fetching Pokémon data and displaying them in a responsive card-based layout.)*
+
 Each Pokémon is rendered using a **reusable Card component**, ensuring clean structure and scalability.
 
 ## 🧩 Features Implemented
