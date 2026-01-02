@@ -1,68 +1,64 @@
 # Day 77 Task | Cohort 2.0
 
-This repository contains the work completed as part of **Day 75** in **Sheryians Coding School Cohort 2.0**.  
-The focus of this task was to build a **User Management interface using React**, with emphasis on form handling, state management, persistent storage using localStorage, and clean card-based UI design.
-
+This repository contains the work completed as part of **Day 77** in **Sheryians Coding School – Cohort 2.0**.  
+The focus of this task was to build a **Pokédex-style application using React**, with emphasis on API integration, asynchronous data fetching, component-based architecture, and a clean card-based UI using Tailwind CSS.
 
 ## 🖼️ Project Overview
 
-The application provides a simple and intuitive interface where users can:
-- Add user details through a form
-- View the added users as cards in real time
-- Remove users dynamically
-- Retain user data even after page refresh
+The application provides an interactive **Pokédex interface** where users can:
 
-The layout follows a **side-by-side structure**, with the form on the left and user cards displayed on the right for better clarity and usability.
+- Fetch Pokémon data from a public API
+- View Pokémon details in card format
+- Display Pokémon images, types, abilities, and stats
+- Render multiple Pokémon in a responsive grid layout
 
-![User Management App Preview](./src/assets/preview.png)
-
+Each Pokémon is rendered using a **reusable Card component**, ensuring clean structure and scalability.
 
 ## 🧩 Features Implemented
 
 | Feature | Description |
 |------|-------------|
-| 📝 User Form | Collects user details such as name, image URL, role, and description |
-| 🪪 User Cards | Displays users in a clean, centered, card-based layout |
-| 🔄 State Management | React `useState` used to manage form inputs and user data |
-| ➕ Add Users | New users added dynamically on form submission |
-| ❌ Delete Users | Users can be removed using a delete button |
-| 🧹 Auto Reset | Form fields reset automatically after submission |
-| 💾 Persistent Storage | User data stored in browser `localStorage` |
-| 🔁 Data Persistence | Users remain saved even after page reload |
-| 📐 Structured Layout | Form and cards placed side by side using Flexbox and Grid |
-| 🔁 Dynamic Rendering | Cards rendered dynamically using `.map()` |
-
+| 🔗 API Integration | Fetches Pokémon data from PokéAPI |
+| ⚡ Async Data Fetching | Uses `axios` with `async/await` |
+| 🃏 Pokémon Cards | Displays Pokémon in clean card layout |
+| 🖼️ Images | Shows official Pokémon artwork |
+| 🧬 Types | Displays Pokémon types using badges |
+| ✨ Abilities | Lists abilities for each Pokémon |
+| 📊 Stats | Displays base stats with progress bars |
+| 🔄 State Management | React `useState` hook |
+| 🧩 Component-Based | Separate `Card.jsx` component |
+| 📐 Responsive Grid | 4 cards per row on large screens |
+| 🎨 Tailwind CSS | Clean and modern styling |
 
 ## ✨ Key Learning Highlights
 
 Through this task, I learned to:
-- Handle multiple controlled form inputs in React
-- Initialize state using data from `localStorage`
-- Store and update data persistently in the browser
-- Manage arrays in state efficiently
-- Use component-based architecture for better code organization
-- Pass functions as props for child-to-parent communication
-- Build a clean and user-friendly UI using Tailwind CSS
 
+- Work with third-party APIs in React
+- Handle multiple API calls using `Promise.all`
+- Manage asynchronous operations cleanly
+- Build reusable and scalable components
+- Render dynamic data using `.map()`
+- Design responsive layouts using Tailwind CSS
 
 ## 🛠️ Technologies Used
 
-- JavaScript (ES6+)  
-- React.js  
-- Tailwind CSS  
-- HTML5  
-- Browser localStorage  
-
+- JavaScript (ES6+)
+- React.js
+- Axios
+- Tailwind CSS
+- HTML5
+- PokéAPI
 
 ## 📖 Learning Outcome
 
-By completing Day 75, I gained a stronger understanding of:
-- React form handling and state updates  
-- Persistent data storage using localStorage  
-- Dynamic rendering of components  
-- Component reusability and props usage  
-- Building structured and maintainable frontend layouts  
+By completing Day 77, I strengthened my understanding of:
 
+- API-driven React applications
+- State management using hooks
+- Component reusability
+- Clean UI design with Tailwind CSS
+- Structuring scalable frontend projects
 
 ## 🌟 Acknowledgement
 
